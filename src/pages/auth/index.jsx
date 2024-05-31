@@ -24,8 +24,12 @@ export const Auth = () => {
   }
 
   return (
+
     <div className="login-page">
-      <p>Sign In With Google to Continue</p>
+        Expense Tracker Website. 
+        Made by- <a target="_blank" href="https://github.com/Abhishek-Ranjan-16">Abhishek Ranjan</a> (UI/UX expert)
+        <br />
+
       <button className="login-with-google-btn" onClick={signInWithGoogle}>
         Sign In With Google
       </button>
